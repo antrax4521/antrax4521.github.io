@@ -1,3 +1,7 @@
+/**
+ * @author Alfredo Gomez
+ */
+
 import React from 'react';
 
 export default class Hola extends React.Component {
