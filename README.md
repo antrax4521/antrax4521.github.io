@@ -1,4 +1,2 @@
-# front-ewallet
-Front developed using vuejs
--
-Postman collection
+# Resume
+Personal resume using vuejs
