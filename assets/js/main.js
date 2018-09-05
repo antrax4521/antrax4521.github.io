@@ -5,6 +5,7 @@
 
 var app = new Vue({
     el: '#app', 
+    template: '<App/>',
     data: {
         name: ["Alfredo", "Gómez"],
     },
