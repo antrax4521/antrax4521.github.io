@@ -51,6 +51,14 @@ export default {
 
 <style>
 
+.wrapper-form{
+  background: #0e1e25;
+  width: 100%;
+  height: auto;
+  padding:50px 0px;
+  float:left;
+}
+
 </style>
 
 

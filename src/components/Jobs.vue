@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col s12">
           <div class="box">
-            <h1>{{ jobs.title }}</h1>
+            <h1 class="p-code">{{ jobs.title }}</h1>
             <ul id="example-1" class="collapsible">
             <li v-for="i in jobs.items">
                   <div class="collapsible-header">{{i.company}}</div>

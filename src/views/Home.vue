@@ -88,6 +88,7 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,500,500i');
 
 .wrapper{
   border:0px;
@@ -100,21 +101,19 @@ export default {
   font-family: 'Rubik', sans-serif;
   font-size: 15px;
 }
+.p-code{
+  font-family: 'Roboto Mono', monospace;
+}
 
+.p-text{
+  font-family: 'Rubik', sans-serif;
+}
 /* This is an exaple of svg*/
 .ocean {
   width: 100%;
   height: 600px;
   position: relative;
   background-color: #2d3b41;
-}
-
-.wrapper-form{
-  background: #0e1e25;
-  width: 100%;
-  height: auto;
-  padding:50px 0px;
-  float:left;
 }
 
 .separator{
