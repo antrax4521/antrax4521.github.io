@@ -2,12 +2,15 @@
     <div class="wrapper-formation">
     <div class="container">
       <div class="row">
-        <div class="col s12">
+        <div class="col s8">
           <div class="box">
             <h1 class="p-code">{{ jobs.title }}</h1>
             <ul id="example-1" class="collapsible">
             <li v-for="i in jobs.items">
-                  <div class="collapsible-header">{{i.company}}</div>
+                  <div class="collapsible-header">
+                    <p>{{i.company}}</p> <br>
+                    <p>De: {{i.time.from}} a {{i.time.to}}</p>
+                  </div>
                   <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
             </ul>
