@@ -7,6 +7,9 @@ import store from './store'
 import 'materialize-css/dist/css/materialize.css'
 import 'materialize-css/dist/js/materialize.js'
 
+window.$ = require('jquery')
+window.JQuery = require('jquery')
+
 
 Vue.config.productionTip = false
 

@@ -71,7 +71,7 @@ export default {
       footer: {
         links: [
           {title: "Github", url: "http://github.com/antrax4521", image: "cloudfront:bucket:s3"},
-          {title: "Twitter", url: "http://twitter.com/antrax4521", image: "cloudfront:bucket:s3"}
+          {title: "Twitter", url: "http://twitter.com/allgoritmo", image: "cloudfront:bucket:s3"}
         ]
       }
     }

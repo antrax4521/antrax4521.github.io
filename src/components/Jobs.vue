@@ -22,10 +22,15 @@
 </template>
 
 <script>
+
+import $ from 'jquery'
 export default {
     name: "Jobs",
     props: {
         jobs: Object
+    },
+    mounted: function(){
+      console.log($);
     }
 }
 </script>

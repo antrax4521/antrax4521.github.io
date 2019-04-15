@@ -2,11 +2,11 @@
     <div class="wrapper-about">
     <div class="container">
       <div class="row">
-        <div class="col s6">
+        <div class="col s12 m6 l6">
           <h1>{{ about.title }}</h1>
           {{ about.description }}
         </div>
-        <div class="col s6">
+        <div class="col s12 m6 l6">
           <h1>Skills</h1>
           <ul class="collection">
             <li v-for="a in about.skills">

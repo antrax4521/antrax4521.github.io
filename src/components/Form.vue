@@ -5,11 +5,11 @@
         <h1>
           {{form.title}}
         </h1>
-        <form class="col s12">
+        <form class="col s12 m12 l6">
           <div class="row">
             <div class="input-field col s12">
-              <input id="first_name" type="text" class="validate">
-              <label for="first_name">Nombre</label>
+              <input id="name" type="text" class="validate" v-model="message">
+              <label for="name">Nombre</label>
             </div>
           </div>
           <div class="row">
@@ -20,8 +20,14 @@
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <input id="first_name" type="text" class="validate">
-              <label for="first_name">Comentarios</label>
+              <input id="phone" type="number" maxlength="10" class="validate">
+              <label for="phone">Teléfono</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="comments" class="materialize-textarea"></textarea>
+              <label for="comments">Comentarios</label>
             </div>
           </div>
           <div class="row">
@@ -36,6 +42,9 @@
 <script>
 export default {
     name: "Form",
+    data() {
+      return {message: this.message}
+    },
     props: {
         form: Object
     },
@@ -51,12 +60,30 @@ export default {
 
 <style>
 
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i');
+
 .wrapper-form{
   background: #0e1e25;
   width: 100%;
   height: auto;
   padding:50px 0px;
   float:left;
+}
+
+.wrapper-form h1{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  color:#fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  font-size: 45px;
+}
+
+.wrapper-form .input-field > label {
+  color: #fff;
+}
+
+.wrapper-form .input-field > label:focus {
+  color: #fff;
 }
 
 </style>
