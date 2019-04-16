@@ -4,11 +4,8 @@ import router from './router'
 import store from './store'
 
 // Importing materialize styles and js
-import 'materialize-css/dist/css/materialize.css'
-import 'materialize-css/dist/js/materialize.js'
-
-window.$ = require('jquery')
-window.JQuery = require('jquery')
+import 'materialize-css/dist/css/materialize.min.css'
+import 'materialize-css/dist/js/materialize.min.js'
 
 
 Vue.config.productionTip = false

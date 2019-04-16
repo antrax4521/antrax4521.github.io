@@ -5,7 +5,7 @@
         <h1>
           {{form.title}}
         </h1>
-        <form class="col s12 m12 l6">
+        <form class="col s12 m12 l12">
           <div class="row">
             <div class="input-field col s12">
               <input id="name" type="text" class="validate" v-model="message">
@@ -43,7 +43,8 @@
 export default {
     name: "Form",
     data() {
-      return {message: this.message}
+      return {
+        message: this.message}
     },
     props: {
         form: Object
@@ -63,11 +64,15 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i');
 
 .wrapper-form{
-  background: #0e1e25;
+  background: #2d3b41;
   width: 100%;
   height: auto;
-  padding:50px 0px;
+  padding:50px 0px 200px 0px;
   float:left;
+}
+
+.wrapper-form  input  textarea{
+  color: #fff;
 }
 
 .wrapper-form h1{

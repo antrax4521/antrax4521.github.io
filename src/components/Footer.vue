@@ -41,4 +41,8 @@ export default {
   height: auto;
   float:left;
 }
+
+.page-footer{
+  background: #0e1e25 !important;
+}
 </style>

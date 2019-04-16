@@ -54,8 +54,8 @@ export default {
         title: "Formación laboral",
         items: [
           { company: 'Ikusmen', time: {from: "Agosto 2018", to: "Actual"}, role: "Sr. Full Stack developer", functions: "Me encargo de desarrollar módulos para distintas plataformas ecommerce que están en comunicación con el ERP del cliente, conexión y desarrollo de Web services, participo en la arquitectura de software y seguridad de los distintos sitios, creación de librerías y code reviews entre equipos. A cargo de la administración de los servicios de AWS de la compañía y la gestión de los ambientes de desarrollo y productivos."},
-          { company: 'ComproPago', time: {from: "Febrero 2017", to: "Abril 2018"}, role: "Sr. Full Stack developer", functions: "Entre mis principales actividades se encontraba el mantenimiento, soporte y desarrollo de plugins para distintas plataformas ecommerce en el área fintech, actualizar la documentación e integración con el api. Mantenimiento al producto principal y desarrollo de nuevos módulos utilizando el lenguaje Ruby, actualización de servicios de facturación con la nueva normativa. Lider de proyecto, a cargo de la planificación, la gestión y el control del producto, así como participar activamente en la arquitectura, desarrollo de backend a escala de microservicios escritos en Nodejs y frontend utilizando Vuejs, desarrollo de pruebas unitarias y a cargo de la infraestructura (AWS)."},
-          { company: 'Sellcom', time: {from: "Abril 2015", to: "Febrero 2016"}, role: "Semi Sr. Full Stack developer", functions: "Mi función principal fue el desarrollo de sitios ecommerce utilizando el framework Magento, trabajando principalmente en el desarrollo de módulos y la conexión con los web services de los clientes. Adicional a ello estuve a cargo del desarrollo de páginas informativas y dinámicas. Trabajar e integrar herramientas de SEO y tracking para los sitios desarrollados."},
+          { company: 'ComproPago', time: {from: "Febrero 2017", to: "Abril 2018"}, role: "Sr. Full Stack developer", functions: "Entre mis principales actividades se encontraba el mantenimiento, soporte y desarrollo de plugins para distintas plataformas ecommerce en el área fintech, actualizar la documentación e integración con el api. \n Mantenimiento al producto principal y desarrollo de nuevos módulos utilizando el lenguaje Ruby, actualización de servicios de facturación con la nueva normativa. \n Lider de proyecto, a cargo de la planificación, la gestión y el control del producto, así como participar activamente en la arquitectura, desarrollo de backend a escala de microservicios escritos en Nodejs y frontend utilizando Vuejs, desarrollo de pruebas unitarias y a cargo de la infraestructura (AWS)."},
+          { company: 'Sellcom', time: {from: "Abril 2015", to: "Febrero 2016"}, role: "Semi Sr. Full Stack developer", functions: "Mi función principal fue el desarrollo \nde sitios ecommerce utilizando el framework Magento, trabajando principalmente en el desarrollo de módulos y la conexión con los web services de los clientes. Adicional a ello estuve a cargo del desarrollo de páginas informativas y dinámicas. Trabajar e integrar herramientas de SEO y tracking para los sitios desarrollados."},
           { company: 'Tv Ofertas', time: {from: "Noviembre 2014", to: "Marzo 2015"}, role: "Ecommerce developer", functions: "Desarrollo y diseño de páginas ecommerce (Magento Community), configuración de servidores, Seguridad Web (Certificado SSL), medición de Analytics, google adwords."},
           { company: 'Gecco Corp', time: {from: "Septiembre 2013", to: "Septiembre 2014"}, role: "Web developer jr", functions: "Desarrollo de páginas web informativas, dinámicas y ecommerce con PHP, configuración de servidores"},
         ]
@@ -107,13 +107,6 @@ export default {
 
 .p-text{
   font-family: 'Rubik', sans-serif;
-}
-/* This is an exaple of svg*/
-.ocean {
-  width: 100%;
-  height: 600px;
-  position: relative;
-  background-color: #2d3b41;
 }
 
 .separator{
