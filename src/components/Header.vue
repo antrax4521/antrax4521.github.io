@@ -2,19 +2,19 @@
     <div class="wrapper-header">
     <div class="container">
       <div class="row">
-
-          <div class="col s0 m0 l2">
-          </div>
-
-          <div class="col s12 m12 l8 background" >
-
+          <div class="col offset-s12 offset-m6 l2"></div>
+          <div class="col s12 m12 l8 background">
             <vue-typed-js :strings="['Who am i']" :startDelay="1000">
-              <h5> Desktop/repo: <span class="typing"></span></h5>
+              <h5> Desktop/user: <span class="typing"></span></h5>
             </vue-typed-js>
-            <p class="whoiam"> - Jesús Alfredo Gómez Enríquez </p>
+            <p class="whoiam">Jesús alfredo Gómez Enríquez <br>Sr. Full Stack Developer <br>Datos de contacto</p>
           </div>
+          <div class="col offset-s6 offset-m6 l2"></div>
+      </div>
 
-          <div class="col s0 m0 l2">
+      <div class="row">
+          <div class="col s12 m12 l12 center-align">
+            <a class="btn-floating btn-large pulse green darken-4" href="#about"><i class="material-icons">arrow_downward</i></a>
           </div>
       </div>
     </div>
@@ -25,7 +25,7 @@
 import { VueTypedJs } from 'vue-typed-js'
 
 export default {
-    name: "sdsd",
+    name: "header",
     props: {
         header: Object
     },
@@ -33,7 +33,6 @@ export default {
         VueTypedJs
     },
     mounted(){
-       
       setTimeout(() => {
         document.querySelector('.whoiam').style.display = 'block';
       }, 2000);
@@ -42,20 +41,56 @@ export default {
 </script>
 
 <style>
-.whoiam{
-  display: none;
-  color: #64dd17;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 20px;
-  -webkit-transition: opacity 2s ease-in;
-    -moz-transition: opacity 2s ease-in;
-    -o-transition: opacity 2s ease-in;
-    -ms-transition: opacity 2s ease-in;
-    transition: opacity 2s ease-in;
 
+.whoiam {
+    display: none;
+    color: #64dd17;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 21px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
 }
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .wrapper-header{
-  background: #000;
+  background-image: url('https://ak8.picdn.net/shutterstock/videos/18933008/thumb/1.jpg');
+  background-size: contain;
   width: 100%;
   height: 100vh;
   padding-top:150px;

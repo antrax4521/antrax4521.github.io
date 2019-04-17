@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper-about">
+    <div class="wrapper-about" id="about">
     <div class="container">
       <div class="row">
         <div class="col s12 m6 l6">

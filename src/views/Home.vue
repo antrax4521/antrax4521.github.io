@@ -36,7 +36,8 @@ export default {
   data() {
     return {
       header: {
-        object: "Claro que si"
+        object: "Claro que si",
+        presentation: "- Jesús alfredo Gómez Enríquez \n - Sr. Full Stack Developer \n datos de contacto"
       },
       about:{
         title: "Acerca de mi",
